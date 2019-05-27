@@ -9,11 +9,11 @@ function Address(address) {
   this.address = address;
 }
 
-Contact.prototype.fullName = function() {
+Contact.prototype.fullName = function() {   // prototype
   return this.firstName + " " + this.lastName;
 }
 
-Address.prototype.fullAddress = function() {
+Address.prototype.fullAddress = function() {  // prototype
   return this.address;
 }
 
@@ -40,11 +40,11 @@ $(document).ready(function() {
 
     var inputtedFirstName = $("input#new-first-name").val();
     var inputtedLastName = $("input#new-last-name").val();
-    var newContact = new Contact(inputtedFirstName, inputtedLastName);
+    var newContact = new Contact(inputtedFirstName, inputtedLastName); // constructor
 
     $(".new-address").each(function() {
       var inputtedAddress = $(this).find("input.full-address").val();
-      var newAddress = new Address(inputtedAddress)
+      var newAddress = new Address(inputtedAddress) // constructor
       newContact.addresses.push(newAddress)
     });
 
