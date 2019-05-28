@@ -9,9 +9,10 @@ _By **Josh Hortt**_
 
 _The goal of this simple Web page is to **Insert your contacts in a form**_.<br/>
 _After inserting contact details, you will be asked to add another address_,<br/>
-_by clicking a button **More** for that contact_,<br/>
-_before you click the red button **Record** contact details and move on_.<br/>
-_INSERT PHONE NUMBER **SOON**_.
+_by clicking a button **More** for that contact, that's before you click_<br/>
+_the red button **Record** (Contact details) and move on_.<br/>
+_Contacts (Links) appear below the Contact list. By clicking them, full contact details_<br/>
+_appear 'displayed' at the right side_.
 
 ## Setup/Installation Requirements
 
