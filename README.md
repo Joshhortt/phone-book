@@ -1,7 +1,7 @@
 # PHONE BOOK
 
 _This application is about constructors and prototypes using JavaScript to create a simple **PHONE BOOK**_.<br/>
-_version: 17/04/2019_<br/>
+_version: 27/05/2019_<br/>
 
 _By **Josh Hortt**_
 
@@ -33,7 +33,7 @@ _**HTML5** - Hyper Text Markup Language_<br/>
 _**CSS3** - Cascading Style Sheets_<br/>
 _**VANILLA JAVASCRIPT** - Javascript_</br>
 _**BOOTSTRAP4** - Bootstrap_</br>
-_**JQUERY.3.3.1** - JQuery_
+_**JQUERY.3.4.0** - JQuery_
 
 ## License
 
