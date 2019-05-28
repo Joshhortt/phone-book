@@ -1,18 +1,23 @@
 //  Business logic (back-end)-----
+
+// Start by building a simple Contact constructor
 function Contact(first, last) {
     this.firstName = first;
     this.lastName = last;
     this.addresses = [];
 }
 
-Contact.prototype.fullName = function () { // prototype
+// We can define a new Contact prototype function
+Contact.prototype.fullName = function () {
     return this.firstName + " " + this.lastName;
 }
 
+// Start by building a simple Address constructor
 function Address(address) {
     this.address = address;
 }
 
+// We can define a new Address prototype function
 Address.prototype.fullAddress = function () { // prototype
     return this.address;
 }
@@ -40,11 +45,11 @@ $(document).ready(function () {
 
         var inputtedFirstName = $("input#new-first-name").val();
         var inputtedLastName = $("input#new-last-name").val();
-        var newContact = new Contact(inputtedFirstName, inputtedLastName); // constructor
+        var newContact = new Contact(inputtedFirstName, inputtedLastName); 
 
         $(".new-address").each(function () {
             var inputtedAddress = $(this).find("input.full-address").val();
-            var newAddress = new Address(inputtedAddress) // constructor
+            var newAddress = new Address(inputtedAddress)
             newContact.addresses.push(newAddress)
         });
 
